@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana;
+    background-color:hsl(0, 7%, 80%);
+    
+  }
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  p {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  p#cuadro1{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    border: hsl(46, 43%, 32%) 2px solid;
+    background-color: hsl(40, 87%, 68%);
+    text-align: center;
+  }
+  p#cuadro2{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(120, 40%, 35%) 5px solid;
+    background-color: hsl(115, 89%, 81%);
+    text-align: center;
+  }
+  p#cuadro3{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(51, 64%, 65%) 3px solid;
+    background-color: hsl(66, 95%, 70%);
+    text-align: left;
+  }
+  p#cuadro4{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 15%, 55%) 4px solid;
+    background-color: hsl(180, 100%, 90%);
+    text-align: right;
+  }
+  p#cuadro5{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 15%, 70%) 4px solid;
+    background-color: hsl(300, 80%, 82%);
+    text-align: left;
+  }
+  p#cuadro6{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 15%, 45%) 4px solid;
+    background-color: hsl(0, 87%, 75%);
+    text-align: right;
+  }
+  
+  
